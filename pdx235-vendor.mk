@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx235/proprietary/vendor/usr/idc/fts_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/fts_ts.idc
 
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.6-legacy \
     com.qti.eeprom.hi846_back_eeprom \
     com.qti.eeprom.hi846_front \
     com.qti.eeprom.truly_cmb433 \
