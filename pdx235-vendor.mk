@@ -16,7 +16,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx235/proprietary/vendor/etc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
     vendor/sony/pdx235/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/sony/pdx235/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    vendor/sony/pdx235/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
     vendor/sony/pdx235/proprietary/vendor/etc/qdcm_calib_data_samsung_amoled_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_amoled_fhd_cmd_dsi_panel.xml \
     vendor/sony/pdx235/proprietary/vendor/etc/sensors/config/strait_qrd_af6133e_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/strait_qrd_af6133e_0.json \
     vendor/sony/pdx235/proprietary/vendor/etc/sensors/config/strait_qrd_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/strait_qrd_mmc56x3x_0.json \
@@ -40,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx235/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/sony/pdx235/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
     vendor/sony/pdx235/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
+    vendor/sony/pdx235/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
     vendor/sony/pdx235/proprietary/vendor/usr/idc/fts_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/fts_ts.idc
 
 PRODUCT_PACKAGES += \
